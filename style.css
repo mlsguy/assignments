@@ -1,0 +1,88 @@
+{
+padding: 0;
+margin: 0;
+box-sizing: Arial, Helvetica, sans-serif
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: poppins;
+    text-align: left;
+
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #c0392b;
+    position: fixed;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #c0392b;
+    position: fixed;
+}
+.logo{
+    width: 30%;
+    float: left;
+    text-align: left;
+    line-height: 30px;
+}
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: cursive;
+    color: azure;
+    letter-spacing: 4px;
+}
+nav{
+    float: right;
+    text-align: right;
+    line-height: 150px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: bisque;
+    padding: 36px 10px;
+    margin: 0 1px;
+    font-weight: 700;
+}
+nav a:hover{
+    background: white;
+    color: black;
+}
+.banner-area{
+    background-image: url(loreum.webp);
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+.banner-area:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .7;
+    z-index: -1;
+}
+.banner-area h2{
+    padding-top: 8%;
+    font-size: 80px;
+    color: white;
+}
